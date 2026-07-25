@@ -1,0 +1,11 @@
+antialiased-cnns
+einops
+numpy
+onnxruntime
+pillow
+ptflops
+tensorboard
+timm
+torch
+torchvision
+tqdm

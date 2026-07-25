@@ -1,0 +1,33 @@
+Collections:
+  - Name: CFMNet
+    Metadata:
+      Training Data: DOTA and HRSC2016
+    Paper:
+      Title: "CFMNet: A Lightweight Backbone with Cooperative Feature Modeling for Remote Sensing Vision Tasks"
+      URL: ../../../CFMNet_manuscript.pdf
+
+Models:
+  - Name: CFMNet-DOTA-v1.0
+    In Collection: CFMNet
+    Config: configs/cfmnet/oriented_rcnn_cfmnet_dotav10.py
+    Results:
+      - Task: Oriented Object Detection
+        Dataset: DOTA-v1.0
+        Metrics:
+          mAP: 79.82
+  - Name: CFMNet-DOTA-v1.5
+    In Collection: CFMNet
+    Config: configs/cfmnet/oriented_rcnn_cfmnet_dotav15.py
+    Results:
+      - Task: Oriented Object Detection
+        Dataset: DOTA-v1.5
+        Metrics:
+          mAP: 73.02
+  - Name: CFMNet-HRSC2016
+    In Collection: CFMNet
+    Config: configs/cfmnet/oriented_rcnn_cfmnet_hrsc2016.py
+    Results:
+      - Task: Oriented Object Detection
+        Dataset: HRSC2016
+        Metrics:
+          mAP: 90.82

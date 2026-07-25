@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use CFMNet in your research, please cite the paper."
+title: "CFMNet"
+type: software
+authors:
+  - family-names: "Chen"
+    given-names: "Jihe"
+  - family-names: "Guo"
+    given-names: "Haonan"
+  - family-names: "Liu"
+    given-names: "Jun"
+  - family-names: "Luo"
+    given-names: "Bin"
+  - family-names: "Su"
+    given-names: "Xin"
+repository-code: "https://github.com/BEIBEIPRINCESS/CFMNet"
+preferred-citation:
+  type: article
+  title: "CFMNet: A Lightweight Backbone with Cooperative Feature Modeling for Remote Sensing Vision Tasks"
+  authors:
+    - family-names: "Chen"
+      given-names: "Jihe"
+    - family-names: "Guo"
+      given-names: "Haonan"
+    - family-names: "Liu"
+      given-names: "Jun"
+    - family-names: "Luo"
+      given-names: "Bin"
+    - family-names: "Su"
+      given-names: "Xin"
+  year: 2026

@@ -1,0 +1,11 @@
+timm
+catalyst==20.09
+lightning
+albumentations
+ttach
+numpy
+tqdm
+opencv-python
+einops
+addict
+antialiased_cnns

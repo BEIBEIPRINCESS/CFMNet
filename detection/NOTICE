@@ -1,0 +1,12 @@
+CFMNet detection component
+Copyright 2026 CFMNet authors
+
+This product includes software derived from MMRotate 0.3.4:
+https://github.com/open-mmlab/mmrotate
+
+MMRotate is developed by OpenMMLab contributors and is distributed under the
+Apache License 2.0. Existing copyright and license notices in derived source
+files are retained.
+
+CFMNet-specific modifications include the CFMNet backbone, experiment configs,
+documentation, and removal of detector components not used by the paper.
