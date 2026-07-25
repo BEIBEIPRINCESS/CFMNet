@@ -139,17 +139,6 @@ cd segmentation
 python train_supervision.py -c config/loveda/unetformer_cfmnet_e30.py
 ```
 
-## Citation
-
-```bibtex
-@misc{chen2026cfmnet,
-  title  = {CFMNet: A Lightweight Backbone with Cooperative Feature Modeling for Remote Sensing Vision Tasks},
-  author = {Chen, Jihe and Guo, Haonan and Liu, Jun and Luo, Bin and Su, Xin},
-  year   = {2026},
-  note   = {Manuscript}
-}
-```
-
 ## License
 
 This repository contains separately licensed components:
